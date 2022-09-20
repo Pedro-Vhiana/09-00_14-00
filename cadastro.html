@@ -1,0 +1,58 @@
+<!-- ter alguma informação, nome, idade, cpf etc -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+<body> <!-- conteiner de imputs-->
+       <form><!--placeholder = dicas do input, required = obrigatório, label = rótulo do campo.-->
+           <div> <!-- for= víncula o ID-->
+            <label for="campoNome">Nome Completo</label><br>
+            <input id="campoNome" type="text" placeholder="Seu nome" name="campoNome" required/>
+           </div>
+           <div>
+            <label for="campoEmail">E-mail</label><br>
+            <input id="campoEmail" type="email" placeholder="Seu e-mail" name="campoEmail" required/>
+           </div>
+           <div>
+            <label for="'campoSenha">Senha</label><br>
+            <input id="campoSenha" type="password" placeholder="Crie uma Senha" name="campoSenha" required/>
+           </div>
+           <div>
+            <label for="campoProfissao">Profissão</label><br>
+            <select id="campoProfissao" value="0" name="campoProfissao">
+                <option selected disabled>Selecione uma opção</option>
+                <option value="professor">Professor</option>
+                <option value="tecnico">Técnico</option>
+                <option value="desenvolvedor">Desenvolvedor</option>
+            </select>
+           </div>
+           <div>
+            <label>Idioma nativo</label><br>
+
+            <input  id="checkIngles" name="campoIdioma" type="radio" value="ingles" />
+            <label for="checkIngles">Inglês</label>
+
+            <input  id="checkEspanhol" name="campoIdioma" type="radio" value="Espanhol" />
+            <label for="checkEspanhol">Espanhol</label>
+
+            <input  id="checkPortugues" name="campoIdioma" type="radio" value="Portugues" />
+            <label for="checkPortugues">Português</label>
+           </div>
+           <div>
+            <label for="campoResumo">Fale sobre você</label><br>
+            <textarea id="campoResumo" name="campoResumo" minlength="30"
+            maxlength="500" rows="10" cols="40" placeholder="fale um pouco da sua vida."></textarea>
+            <!-- maxlength=maximo de caracteres
+                  minlength=minimo de caracteres
+                   textarea=espaço para escrever -->
+           </div>
+           <div>
+
+           </div>
+       </form>
+</body>
+</html>
