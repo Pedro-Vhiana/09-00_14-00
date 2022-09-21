@@ -1,0 +1,45 @@
+<!-- ter alguma informação, nome, idade, cpf etc -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+</head>
+<body> <!-- conteiner de imputs-->
+    <img src="https://soulcodeacademy.org/assets/images/logo/light-logo.png" width="250" />
+    <div>
+        <h3>Bem Vindo! Entre com seu email e senha.</h3>
+    </div>
+           <form><!--placeholder = dicas do input, required = obrigatório, label = rótulo do campo.-->
+           <div>
+            <label for="campoEmail">E-mail</label><br>
+            <input id="campoEmail" type="email" placeholder="email@exemplo.com" name="campoEmail" required/>
+           </div>
+           <div>
+            <label for="'campoSenha">Senha</label><br>
+            <input id="campoSenha" type="password" placeholder="Sua senha" name="campoSenha" required/>
+           </div>
+           <hr>
+           <div>
+            <button>Login</button>
+            </div>
+            <div>
+                <input type="checkbox" name="manterConectado" for="manterConectado" />
+                <label id="manter conectado" name="manterConectado"> continuar conectado?</label>
+            </div>
+             </form>
+             <div><br>
+                <h1>Bolsa Integral</h1>
+                <table border="1" cellpadding="3" style="border-collapse: collapse;"></table>
+                <thead>
+                    <tr>
+                        <th>HORAS</th>
+                        <th>INICIO</th>
+                        <th></th>
+                    </tr>
+                </thead>
+             </div>
+</body>
+</html>
