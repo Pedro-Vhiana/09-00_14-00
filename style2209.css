@@ -1,0 +1,95 @@
+h1 {
+    background-color: brown;
+    width: 500px;
+
+}
+
+/*.box1 {
+    background-color: gray;
+      espaçamento interno da caixa 
+    padding: 15px;
+     espaçamento externo 
+    margin: 10px; 
+    padding: top,rigth,dowm & left
+    border: espessura, estilo & cor(borda)
+    border-radius arredonda os lados
+    f2 - editar todos elementos
+    background-image: url(); - atribuir arquivo
+    background-repeat: no-repeat;
+    background-size: cover; = cobrir todo o espaço
+    background-size: contain; = encaixar perfeito
+    back-postion::
+    vh = porcentagem
+    background-attachment: fixed;
+
+
+
+} */
+
+
+.box1 {
+    background-color: gainsboro;
+    padding: 15px 10px 5px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    width: 500px;
+    
+}
+
+
+.box2 {
+    background-color: gainsboro;
+    padding: 15px 10px 5px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    width: 500px;
+
+}
+
+.box3 {
+    background-color: gainsboro;
+    padding: 15px 10px 5px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    width: 500px;
+
+}
+
+.box4 {
+    background-color: gainsboro;
+    padding: 15px 10px 5px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    width: 500px;
+
+}
+.big {
+    background-color: gainsboro;
+    padding: 15px 10px 5px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    width: 500px;
+}
+
+* {
+
+ box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://logodownload.org/wp-content/uploads/2014/04/bmw-logo-1-1.png");  
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-size: contain;
+    background-size: 100px;
+    background-attachment: fixed;
+    background-color: chocolate;
+}
