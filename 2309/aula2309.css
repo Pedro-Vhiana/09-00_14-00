@@ -20,20 +20,26 @@
     background-color: darkgreen;
 }
 .my-table th{
-    background-color: black;
+    background-color: gainsboro;
     border: 1px solid black;
+    border-radius: 6px;
     padding: 10px;
-    color: white;
+    color: black;
 
+}
+
+.my-table{
+    margin: auto;
 }
 
 .my-table td{
     border: 1px solid black;
+    padding: 15px;
 }
 
 .my-form{
     border-radius: 6px;
-    background-color: gray;
+    background-color: gainsboro;
     padding: 22px;
     width: 400px;
     margin: auto;
