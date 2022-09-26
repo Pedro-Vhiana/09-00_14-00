@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.box-1{
+    background-color: darkred;
+}
+
+.box-2{
+    background-color: wheat;
+}
+
+.box-3{
+    background-color: darkred;
+}
+
+.box-4{
+    background-color: wheat;
+}
+
+.container-flex{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 150px;
+    gap: 1px;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    width: 200px;
+    padding: 8px;
+    border-radius: 3px;
+
+}
